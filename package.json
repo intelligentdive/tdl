@@ -15,11 +15,21 @@
     "react-countup": "^6.5.0",
     "react-dom": "^18",
     "react-hook-form": "^7.47.0",
+<<<<<<< HEAD
     "react-icons": "^4.12.0"
   },
   "devDependencies": {
     "autoprefixer": "^10",
     "daisyui": "^4.6.3",
+=======
+    "react-icons": "^4.11.0",
+    "react-query": "^3.39.3",
+    "recharts": "^2.11.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10",
+    "daisyui": "^4.6.1",
+>>>>>>> 7a5739c21602aadc02f743724afb7b37c274eb4e
     "eslint": "^8",
     "eslint-config-next": "14.0.0",
     "postcss": "^8",
