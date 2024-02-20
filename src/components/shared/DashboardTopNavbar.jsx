@@ -1,6 +1,7 @@
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { BiMessageDetail } from "react-icons/bi";
 import { LuBell } from "react-icons/lu";
+import Link from "next/link";
 
 
 const DashboardTopNavbar = () => {
@@ -9,7 +10,7 @@ const DashboardTopNavbar = () => {
         <div className="flex items-center justify-between ">
         <div className="flex items-center gap-[12px]">
             <FaArrowLeftLong size={18}/>
-            <h2 className="text-[20px] font-semibold text-main">Back to landing page</h2>
+            <Link href={'/'}><h2 className="text-[20px] font-semibold text-main cursor-pointer">Back to landing page</h2></Link>
         </div>
         
         { /* profile section  */}
