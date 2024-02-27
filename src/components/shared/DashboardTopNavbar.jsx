@@ -2,8 +2,13 @@
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { BiMessageDetail } from "react-icons/bi";
 import { LuBell } from "react-icons/lu";
+<<<<<<< HEAD
 import { useState } from "react";
 import Link from "next/link";
+=======
+import Link from "next/link";
+
+>>>>>>> 9ae125e37cfac011150344b28b8d51696a52f170
 
 const DashboardTopNavbar = () => {
   const [isOptionsVisible, setOptionsVisible] = useState(false);
@@ -27,10 +32,15 @@ const DashboardTopNavbar = () => {
     <div className="py-[20px] shadow-sm pl-4 pr-10 bg-white ">
       <div className="flex items-center justify-between ">
         <div className="flex items-center gap-[12px]">
+<<<<<<< HEAD
           <FaArrowLeftLong size={18} />
           <h2 className="text-[20px] font-semibold text-main">
             Back to landing page
           </h2>
+=======
+            <FaArrowLeftLong size={18}/>
+            <Link href={'/'}><h2 className="text-[20px] font-semibold text-main cursor-pointer">Back to landing page</h2></Link>
+>>>>>>> 9ae125e37cfac011150344b28b8d51696a52f170
         </div>
 
         {/* profile section  */}
