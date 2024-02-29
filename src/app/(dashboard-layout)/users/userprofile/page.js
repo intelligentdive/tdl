@@ -1,10 +1,14 @@
+<<<<<<< HEAD
 "use client";
+=======
+>>>>>>> f64ec8a42435fb459e7a144c5e7f3829b47e8832
 import Link from "next/link";
 import { IoLocationSharp } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { PiGenderFemaleFill } from "react-icons/pi";
 import { RiVerifiedBadgeFill } from "react-icons/ri";
 import { RiContactsFill } from "react-icons/ri";
+<<<<<<< HEAD
 import Swal from "sweetalert2";
 
 const userProfile = () => {
@@ -31,6 +35,10 @@ const userProfile = () => {
         });
     };
     
+=======
+
+const userProfile = () => {
+>>>>>>> f64ec8a42435fb459e7a144c5e7f3829b47e8832
     return (
         <div className='relative'>
             <div className=''>   <img
@@ -105,7 +113,11 @@ const userProfile = () => {
                     </div>
                     <div className="text-center">
                     <RiVerifiedBadgeFill className='text-9xl text-[#22CD5A] mx-auto' />
+<<<<<<< HEAD
                     <button onClick={handleclick} className="btn bg-[#032D2C] text-white">Apply for verification</button>
+=======
+                    <button className="btn bg-[#032D2C] text-white">Apply for verification</button>
+>>>>>>> f64ec8a42435fb459e7a144c5e7f3829b47e8832
                     <p className="py-5">If you verify, There is a huge chance of <br /> investor who’ll love to invest in your pitch</p>
                     </div>
                     
